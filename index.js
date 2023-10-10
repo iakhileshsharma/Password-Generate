@@ -52,7 +52,7 @@ import pkgjson from './package.json' assert { type: "json"};
 
   let charlength = characters.length;
 
-     for(let i=0; i<20; i++){
+     for(let i=0; i<30; i++){
        password += characters[Math.floor(Math.random() * charlength)];
     }
 
@@ -82,7 +82,6 @@ import pkgjson from './package.json' assert { type: "json"};
         ['star', 'https://www.npmjs.com/package/cli-table'],
         ['follow', 'https://www.npmjs.com/package/cli-table'],
         ['followup', 'https://www.npmjs.com/package/cli-table'],
-        ['last', 'https://www.npmjs.com/package/cli-table']
         );
 
     console.log(table.toString());
