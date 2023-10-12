@@ -81,8 +81,6 @@ import pkgjson from './package.json' assert { type: "json"};
     table.push(
         ['star', 'https://www.npmjs.com/package/cli-table'],
         ['follow', 'https://www.npmjs.com/package/cli-table'],
-        ['followup', 'https://www.npmjs.com/package/cli-table'],
-        ['followup', 'https://www.npmjs.com/package/cli-table'],
         );
 
     console.log(table.toString());
