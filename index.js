@@ -45,7 +45,7 @@ import pkgjson from './package.json' assert { type: "json"};
   let password = '';
   let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*abcdefghijklmnopqrstuvwxyz0123456789';
     if(isalphaonly == false){
-        characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     }
 
 
@@ -80,8 +80,7 @@ import pkgjson from './package.json' assert { type: "json"};
 
     table.push(
         ['star', 'https://www.npmjs.com/package/cli-table'],
-        ['follow', 'https://www.npmjs.com/package/cli-table'],
-        ['follow', 'https://www.npmjs.com/package/cli-table'],
+        ['follow', 'https://www.npmjs.com/package/cli-table']
         );
 
     console.log(table.toString());

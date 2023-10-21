@@ -4,7 +4,7 @@
     "description": "A CLI that can generate random passwords for you",
     "main": "index.js",
     "author": {
-        "name": "Akhilesh Sharma",
+        "name": "Akhilesh",
         "email": "akhileshsharma@gmail.com",
         "url": "https://github.com/iakhileshsharma/cli-session"
     },
