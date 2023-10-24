@@ -1,0 +1,28 @@
+{
+    "name": "random-password-gen",
+    "version": "1.0.0",
+    "description": "A CLI that can generate random passwords for you",
+    "main": "index.js",
+    "author": {
+        "name": "Akhilesh Sharma",
+        "email": "akhileshsharma@gmail.com",
+        "url": "https://github.com/iakhileshsharma/cli-session"
+    },
+    "files": [
+        "utils/*",
+        "index.js"
+    ],
+    "type": "module",
+    "bin": {
+        "gen-pass": "index.js"
+    },
+    "scripts": {
+        "test": "node test.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "cli-table": "^0.3.11",
+        "cli-welcome": "^2.2.2",
+        "clipboardy": "^3.0.0"
+    }
+}
