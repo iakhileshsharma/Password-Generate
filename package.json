@@ -23,6 +23,8 @@
     "dependencies": {
         "cli-table": "^0.3.11",
         "cli-welcome": "^2.2.2",
-        "clipboardy": "^3.0.0"
+        "clipboardy": "^3.0.0",
+        "commander": "^11.1.0",
+        "minimist": "^1.2.8"
     }
 }
